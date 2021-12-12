@@ -1,17 +1,5 @@
 # Musicbot-247-Private
 Một con Musicbot Lofi chạy 24/7
 
-# Chuẩn bị
- -- Nodejs v16 
- -- IDE (VSC;Repl.it;...)
- -- Link stream nhạc (bạn có thể tham khảo của bên [IloveMusic](https://ilovemusic.de)
-
-# Đi vào việc
-
-Thay ChannelID = ID kênh **voice/stage**
-Dùng Sytem secerts như sau
-   -- Value : TOKEN
-   -- KEY : YourToken
-
-Nếu **IDE** không có Sytem secerts , thử sang tệp **.env**
-  TOKEN = TokenYourBot
+# Các nền tảng
+[https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/1200px-Repl.it_logo.svg.png](https://replit.com/github/kirigizakazutovn/Musicbot-247-Private) 
