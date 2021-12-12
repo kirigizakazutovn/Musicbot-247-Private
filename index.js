@@ -20,7 +20,7 @@ app.listen(port, () => console.log(`App is listening at http://localhost:${port}
 //Login to the Bot
 client.login(process.env.TOKEN);
 //an array of all channels can be a database output too!
-const Channels = ["919489353535856722"];
+const Channels = ["ChannelID", "ChannelID"];
 //Once the bot is ready join all channels and play the audio
 client.on("ready", async () => {
     for(const channelId of Channels){
@@ -37,7 +37,7 @@ client.on("ready", async () => {
                 guildId: channel.guild.id,
                 adapterCreator: channel.guild.voiceAdapterCreator
             });
-            //use a: direct mp3 link / file /; ytdl("https://youtu.be/KmVJjolP9AI")
+            //use a: direct mp3 link / file /; ytdl("linkvideoyoutube")
             let music = "https://streams.ilovemusic.de/iloveradio17.mp3"
             if(channelId === ""){
               music = "https://usa9.fastcast4u.com/proxy/jamz?mp=/1 "
